@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/assets/fonts/static/OpenSans-Medium.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 800px;
+}
+
+/* header start  */
+
+    header{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/image_1.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    
+    .header-container{
+        color: #fff;
+        padding: 350px 0;
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .header-container p{
+        font-size: 40px;
+        
+    }
+    .header-links{
+        margin-top: 50px;
+    }
+    
+    .header-container a{
+        padding: 12px 20px;
+        border-radius: 9px;
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    #header-link-1{
+        background-color: #1a57a5;
+        border: 1px solid #1a57a5;
+    }
+    #header-link-1:hover{
+        background-color: #103463;
+        border: 1px solid #103463; 
+        padding: 15px 23px;
+    }
+
+    #header-link-2{
+        border: 2px solid rgb(248, 248, 248);
+    }
+    #header-link-2:hover{
+        background-color: rgba(255, 255, 255, .3);
+        padding: 15px 20px;
+    }
+
+
+/* header end */
+
+
+
+
+
+
+
+/* services start */
+
+.services{
+    padding: 100px 0;
+}
+.services-container{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline ;
+}
+.service{
+    width: 30%;
+;
+
+}
+.service-top-icons{
+
+    width: 80px;
+    fill: #1a57a5;
+}
+.service-down-icons{
+
+    width:  8px;
+    fill: #1a57a5;
+}
+.service h3{
+    color: #1a57a5;
+    font-size: 26px;
+    padding: 28px 0;
+}
+.service p{
+    color: #808080;
+    font-size: 16px;
+    margin-bottom: 52px;
+    line-height: 1.7;
+}
+.service a{
+    color: #1a57a5;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
